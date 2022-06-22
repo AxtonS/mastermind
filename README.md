@@ -13,4 +13,5 @@ mastermind game built in ruby
 -built the random code method using a times loop to sample from array of 6 colors
 -moved both empty array and colors variable assignment into module separate module   
 -built the input functionality for submitting a code, checks for valid inputs and pushes each color to array one at a time  
--built the compare method used to determine how many colors match and how many are in right position
+-built the compare method used to determine how many colors match and how many are in right position  
+-built the game logic with victory and 12 round loss conditions
