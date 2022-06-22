@@ -10,4 +10,6 @@ mastermind game built in ruby
 
 ## progress  
 
--built the random code method using a times loop sampling from array of 6 colors
+-built the random code method using a times loop to sample from array of 6 colors
+-moved both empty array and colors variable assignment into module separate module   
+-Built the input functionality for submitting a code, checks for valid inputs and pushes each color to array one at a time
