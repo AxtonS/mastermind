@@ -1,5 +1,7 @@
 # mastermind
 mastermind game built in ruby  
+  
+if you don't have ruby installed you can run the game at https://replit.com/@AxtonSmith/mastermind#README.md  
 
 ## finished  
 -was tricky to figure out a way to have two different array comparison techniques that don't interfere with each other but work with same information  
