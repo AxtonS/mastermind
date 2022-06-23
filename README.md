@@ -3,7 +3,7 @@ mastermind game built in ruby
 
 ## finished  
 -was tricky to figure out a way to have two different array comparison techniques that don't interfere with each other but work with same information  
--going to update the game so the computer player has intelligence to it's guesses as opposed to random guesses  
+-going to update the game so the computer player has intelligence to it's guesses as opposed to random or cheater guesses  
 
 ## plan  
 
@@ -22,3 +22,4 @@ mastermind game built in ruby
 -built the game logic with victory and 12 round loss conditions  
 -changed the game flow to allow for player to enter their own secret code or let computer pick  
 -added computer player method that simply guesses randomly against the players code  
+-added computer player difficulty options, worst option uses the random guess method, best option cheats and guesses immediately  
