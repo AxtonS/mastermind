@@ -6,6 +6,7 @@ if you don't have ruby installed you can run the game at https://replit.com/@Axt
 ## finished  
 -was tricky to figure out a way to have two different array comparison techniques that don't interfere with each other but work with same information  
 -going to update the game so the computer player has intelligence to it's guesses as opposed to random or cheater guesses  
+-upon reflection this project lead to me rube-goldberging the living f*$% out of everything unfortunately so going to refactor this whole project with a more solid plan going in
 
 ## plan  
 
