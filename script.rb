@@ -75,6 +75,14 @@ class CodeBreaker
     @code = secret
   end
 
+  def normal_brain(secret)
+    random if @code == []
+    secret.each_with_index do |value, index|
+      @code[index] = @colors.sample if @code[index] != value
+    end
+    @code
+  end
+
   def smooth_brain
     random
     @code
@@ -97,8 +105,7 @@ class CodeBreaker
       when 'smooth brain'
         @code = smooth_brain
       when 'normal brain'
-        @code = %w[red blue green violet]
-        puts "\nNormal brain intelligence option is under construction >_< sorry mate!"
+        @code = normal_brain(secret.code)
       when 'galaxy brain'
         @code = galaxy_brain(secret.code)
       end

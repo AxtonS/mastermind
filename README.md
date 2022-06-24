@@ -6,7 +6,7 @@ if you don't have ruby installed you can run the game at https://replit.com/@Axt
 ## finished  
 -was tricky to figure out a way to have two different array comparison techniques that don't interfere with each other but work with same information  
 -going to update the game so the computer player has intelligence to it's guesses as opposed to random or cheater guesses  
--upon reflection this project lead to me rube-goldberging the living f*$% out of everything unfortunately so going to refactor this whole project with a more solid plan going in
+-this code seems very messy so going to have to do a refactor when I come back to it to rework the computer intelligence  
 
 ## plan  
 
@@ -26,3 +26,4 @@ if you don't have ruby installed you can run the game at https://replit.com/@Axt
 -changed the game flow to allow for player to enter their own secret code or let computer pick  
 -added computer player method that simply guesses randomly against the players code  
 -added computer player difficulty options, worst option uses the random guess method, best option cheats and guesses immediately  
+-added "normal brain" difficulty option to the computer that simply saves the colors that it guesses right and randomizes the others  
